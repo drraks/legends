@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main{
+    height: 100vh;
+    background: url(assets/fon.jpg) center center no-repeat;
+    background-size: cover;
+}
+.shapka{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    padding-top: 20px;
+}
+.part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 60px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.315);
+}
+.part-knopka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 60px;
+    height: 55px;
+    background-color: #CAAC65;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px
+}
+.link{
+    color: white;
+}
+#radius{
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px
+}
+.open-site{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sell,.legenda{
+    color: white;
+}
+.sell{
+    text-align: center;
+    font-size: 75px;
+    line-height: 1em;
+    font-weight: 500;
+    text-shadow: #000 1px 0 10px;
+    text-transform: uppercase;
+}
+.legenda{
+    font-size: 37px;
+    font-weight: 500;
+}
+.lega{
+    font-family: "Tenor Sans", sans-serif;
+}
+.description{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 170px;
+}
+.legend{
+    color: #CAAC65;
+}
+.leveling{
+    color: white;
+    text-align: center;
+    font-size: 43px;
+    font-family: "Tenor Sans", sans-serif;
+}
+.quarter{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 25px;
+}
+.town{
+    height: 430px;
+    width: 1000px;
+    border-radius: 500px;
+    background: url(assets/town.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 175px;
+    padding: 40px;
+    
+}
+.home{
+    text-align: center;
+    color: white;
+}
