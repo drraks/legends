@@ -126,3 +126,36 @@ body{
     text-align: center;
     color: white;
 }
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 140px;
+    margin-top: 230px;
+}
+.what-legenda{
+    color: white;
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+}
+.legends{
+    color: #CAAC65;
+}
+.proposal{
+    color: rgba(255, 255, 255, 0.329);
+    text-align: center;
+    font-size: 23px;
+}
+.information{
+    color: white;
+    display: flex;
+    gap: 530px;
+}
+.information-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
