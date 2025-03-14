@@ -412,8 +412,25 @@ body{
     color: #464646;
   }
   .footer{
-    height: 100vh;
     color: white;
+    padding: 300px 70px 50px 70px;
+  }
+  .footer-inner{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  .footer-text{
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .footer-header{
+    display: flex;
+    justify-content: space-between;
   }
 
 
